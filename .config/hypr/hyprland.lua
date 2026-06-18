@@ -29,7 +29,7 @@ local terminal    = "kitty"
 local fileManager = "thunar"
 local menu        = "hyprlauncher"
 
-require("autostart")
+require("assets.autostart")
 
 
 -------------------------------
