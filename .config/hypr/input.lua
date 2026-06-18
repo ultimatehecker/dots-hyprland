@@ -16,3 +16,8 @@ hl.config({
         }
     }
 });
+
+hl.device({
+    name = "syna2ba6:00-06cb:cefe-touchpad",
+    sensitivity = -0.05,
+})
