@@ -6,6 +6,9 @@
 --
 
 hl.on("hyprland.start", function () 
+    -- Load cursor
+    hl.exec_cmd("hyprctl setcursor aosp 22")
+    
     -- Start polkit daemon
     hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
@@ -14,5 +17,7 @@ hl.on("hyprland.start", function ()
 
     -- Start hyprpaper for wallpaper management
     hl.exec_cmd("hyprpaper")
+
+    hl.exec_cmd("waybar")
 
 end)
